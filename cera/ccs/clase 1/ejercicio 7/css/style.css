@@ -1,0 +1,15 @@
+p::selection{
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}
+
+#brand::after{
+    content: "";
+    padding-right: 4px;
+    color: red;
+}
+
+p:not(#brand)::first-letter{
+    font: 34px Haettenschweiler;
+}

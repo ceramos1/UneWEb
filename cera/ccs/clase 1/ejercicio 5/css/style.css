@@ -1,0 +1,45 @@
+/* Selector Universal
+EN este caso sus Atributos modifican el tipo de letra*/
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*lo que esta marcado con el identificador main se muestra en color de fondo gris
+Sus atributos mnodifican el color de fond*/
+
+#main{
+    background-color: gray;
+}
+
+/*Los Encabezados h2 de la clase especial se muestran en color azul, sus Atributos modifican el color de la letra*/
+
+h2.especial{
+    color: blue;
+}
+
+/*A todos los encabezados de tipo h3 y h4 se le pone un borde naranja de 1 pixel y linea continua(solid)*/
+
+h3,
+h4{
+    border: 1px solid orange
+}
+
+/*Los elementos de una lista ordenada o desordenada estan en color rojo*/
+li{ 
+    color: red;
+}
+
+/*los elementos de una lista que van dentro de otra lista, elementos de una sublista, estan en verde*/
+li li{color: green;}
+
+/*Selecciona las imagenes que tengan el valor "segunda" en el atributo alt y le pone el borde solido, rojo de 5px*/
+
+img[alt="segunda foto"] {border: 5px solid red; }
+
+/*Selecciona los encabezados h4 de la clase antes que esta antes de un parrafo y los pone en color rosa*/
+
+p ~ h4.antes{background-color: pink;}
+
+/*Selecciona los encabezados h4 que estan despues de un parrafo y los pone en fondo azul*/
+
+p + h4{background-color:blue;}
