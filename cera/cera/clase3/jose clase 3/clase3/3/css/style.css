@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+    background-color: chocolate;
+    color: white;
+}
+
+th{
+    font-family: Helvetica, sans-serif;
+    color: blueviolet;
+    border: black solid;
+}
+
+a{
+    font-family: Courier, monospace;
+    color: green;
+}
+
+td{
+    font-family: Arial, sans-serif;
+    color: red;
+    border: black solid;
+}
+img{
+    border: black solid;
+}
